@@ -8,7 +8,7 @@ function distanceFromHqInFeet(someNumber){
 }
 
 function distanceTravelledInFeet(startBlock, stopBlock){
-  return Math.abs(startBlock, stopBlock)
+  return Math.abs(startBlock - stopBlock)
 }
 
 
