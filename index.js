@@ -16,10 +16,10 @@ function calculatesFarePrice(startBlock, stopBlock) {
   let dist = distanceTravelledInFeet(startBlock, stopBlock);
   if (dist <= 400) {
     return 0
-  } else if (dist > 400 && 2000){
+  } else if (dist > 400 && dist <= 2000){
     return 0.02*(dist-400)
-  } else if {
-
+  } else if (dist > 2000) {
+    return 25
   } else {
     return 'cannot travel that far'
   }
