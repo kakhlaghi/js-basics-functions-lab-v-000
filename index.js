@@ -13,5 +13,5 @@ function distanceTravelledInFeet(startBlock, stopBlock){
 
 
 function calculatesFarePrice(startBlock, stopBlock) {
-  
+  distanceTravelledInFeet(startBlock, stopBlock)
 }
