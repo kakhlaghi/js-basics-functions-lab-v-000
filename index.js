@@ -18,6 +18,8 @@ function calculatesFarePrice(startBlock, stopBlock) {
     return 0
   } else if (dist > 400 && 2000){
     return 0.02*(dist-400)
+  } else if {
+
   } else {
     return 'cannot travel that far'
   }
