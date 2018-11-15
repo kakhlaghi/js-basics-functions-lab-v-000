@@ -17,6 +17,6 @@ function calculatesFarePrice(startBlock, stopBlock) {
   if (dist <= 400) {
     return 0
   } else if (dist > 400 && 2000){
-    return .02*dist
+    return 0.02*(dist-400)
   }
 }
